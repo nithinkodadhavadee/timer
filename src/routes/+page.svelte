@@ -1,4 +1,5 @@
 <script lang="ts">
+  export const prerender = true;
     // Array of time intervals, each containing hours, minutes, and seconds
     let timeIntervals: { h: number; m: number; s: number }[] = [{ h: 0, m: 10, s: 0 }];
     let count: number = 1; // Number of repetitions
